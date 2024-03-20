@@ -25,7 +25,7 @@ body{
   src: url(./fonts/ABCGintoNormalBold.otf);
 }
 nav{
-  position: fixed;
+
   background-color: #404eed;
   
 }
@@ -127,7 +127,7 @@ filter: invert();
 }
 
  .section1-box .part1{
-  font-size:4rem;
+  font-size:3.5rem;
   font-weight: 1000;
   text-align: center;
   font-family: ABCGintoNord-Title;
@@ -266,9 +266,9 @@ filter: invert();
 
  .section4-box .part1{
   background-color:white;
-  height: 400px;
+  height: 500px;
   background-image: url(https://assets-global.website-files.com/6257adef93867e50d84d30e2/6582c1d8348e5c81ca608138_From%20few%20to%20a%20fandom.svg);
-  background-size: 85%;
+  background-size: 73%;
   background-position: center;
   background-repeat: no-repeat;
    
@@ -518,4 +518,14 @@ font-weight: 600;
 
 .footer-logo .signup:hover{
   opacity: 0.7;
+}
+
+.scroll-effect { 
+  opacity: 0; 
+  transition: opacity 1s ease;
+}
+
+.animate {
+  opacity: 1;
+  transform: translateY(0); 
 }
