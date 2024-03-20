@@ -1,0 +1,1073 @@
+
+@media only screen and (max-width: 400px) {
+   .download1{
+    display: flex;
+  }
+
+  .login-button{
+    display: none;
+  }
+  .right-img{
+    display: none;
+  }
+  .left-img{
+    width: 50%;
+    left: 22%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .left-img img{
+    width: 120%;
+    
+  }
+
+  .section1{
+    width: 115%;
+  }
+  .section1-box{
+    top: 0%;
+    left: 0%;
+    transform: none;
+    margin-left: 20px;
+    width: 94%;
+  }
+  
+   .section1-box .part1{
+    font-size:1.3rem;
+    font-weight: 1000;
+    text-align: start;      
+  }
+  
+  .section1-box .part2{
+    font-size: 1rem;
+    font-weight: 100;
+    width: 75%;
+    text-align: start; 
+  }
+  
+  .section1-box .part3{
+    text-align: start; 
+  }
+  
+  .section1-box .part3 button{
+    text-wrap:wrap;
+    padding: 15px 7%;
+    font-size: 1rem;
+    
+  }
+
+  .section2-box{
+    grid-template-columns: 1fr;
+    padding: 50px 0px;
+    width: 115%;
+  }
+  .section2-box .part1{
+    background-size: 85%;
+    height: 250px;
+  }
+
+
+  .section2-box .part2{
+    height: 100px;
+    margin-left: 10px;
+  }
+  
+  .section2-box .part2 p:first-child{
+    font-size: 16px;
+    width: 100%;
+    line-height: 20px;
+  }
+  
+  .section2-box .part2 p:last-child{
+    font-size: 18px;
+    width: 90%;
+  }
+
+  /*  */
+  .section3-box{
+    grid-template-columns: 1fr;
+    padding: 50px 0px;
+    width: 115%;
+  }
+  .section3-box .part1{
+    background-size: 77%;
+    height: 250px;
+    grid-row: 1; /* Place part1 in the second row */
+    grid-column: 1;
+  }
+
+
+  .section3-box .part2{
+    height: 100px;
+    grid-row: 2; /* Place part1 in the second row */
+    grid-column: 1;
+    margin-left: 10px;
+  }
+  
+  .section3-box .part2 p:first-child{
+    font-size: 16px;
+    width: 100%;
+    line-height: 20px;
+    margin-left: 2px;
+  }
+  
+  .section3-box .part2 p:last-child{
+    font-size: 18px;
+    width: 90%;
+    margin-left: 2px;
+  }
+
+  /* section4 */
+
+  .section4-box{
+    grid-template-columns: 1fr;
+    padding: 50px 0px;
+    width: 115%;
+  }
+  .section4-box .part1{
+    background-size: 72%;
+    height: 250px;
+  }
+
+
+  .section4-box .part2{
+    margin-top: 10px;
+    height: 100px;
+    margin-left: 10px;
+  }
+  
+  .section4-box .part2 p:first-child{
+    font-size: 18px !important;
+    width: 100%;
+    line-height: 20px;
+  }
+  
+  .section4-box .part2 p:last-child{
+    font-size: 18px;
+    width: 90%;
+  }
+
+        /* Section5 */
+
+.section5-box{
+
+  width: 115%;
+}
+.section5-box .part1{
+  font-size: 14px !important;
+}
+
+.section5-box .part2{
+  font-size: 12px !important;
+  width: 300px !important;
+  margin-left: 10px;
+}
+
+.section5-box .part3{
+  margin-top: 0px;
+  width: 80%;
+  height: 250px !important;
+  background-size: 70%;
+}
+
+/* Section6 */
+
+.section6-box{
+  height: 200px;
+  width: 115%;
+
+}
+
+.section6-box .part1{
+  font-size:20px ;
+  font-weight: 600;
+}
+
+.section6-box .part2{
+  margin-top: 10px;
+  padding: 10px 50px;
+  color: white;
+  margin-left: 10px;
+}
+.footer{
+  height: 1000px;
+  width: 115%;
+
+}
+
+.footer-box{
+  margin-top:3%;
+  margin-bottom: 10%;
+  width: 80%;
+  height: 80%;
+
+}
+
+.footer-grid {
+  grid-template-rows: 1fr 2fr 4fr; /* First row 1fr, Second row 3fr */
+  grid-template-columns: 1fr 1fr; /* Three columns, 2fr, 1fr, 1fr */
+  width: 100%;
+  height: 100%;
+}
+
+.footer-section1 {
+  grid-row: 1 / 2; /* First row */
+  grid-column: 1 / 2; /* Spans from first to second column */
+}
+
+.footer-section2 {
+  grid-row: 2 / 3; /* First row */
+  grid-column: 1 / 2; /* Third column */
+}
+
+.footer-section3 {
+  grid-row: 2 / 3; /* First row */
+  grid-column: 2 / 3; /* Fourth column */
+}
+
+.footer-section4 {
+  grid-row: 3 / 4; /* Second row */
+  grid-column: 1 / 2; /* First column */
+}
+
+.footer-section5 {
+  grid-row: 3 / 4; /* Second row */
+  grid-column: 2 / 3; /* Third column */
+}
+
+}
+
+/* Styles for Extra Small Devices (Phones) */
+@media only screen and (min-width: 400px) and (max-width: 576px) {
+
+    .download1{
+      display: flex;
+    }
+  
+    .login-button{
+      display: none;
+    }
+    .right-img{
+      display: none;
+    }
+    .left-img{
+      width: 50%;
+      left: 22%;
+      display: flex;
+      align-items: flex-end;
+    }
+  
+    .left-img img{
+      width: 120%;
+      
+    }
+
+    .section1-box{
+      top: 0%;
+      left: 0%;
+      transform: none;
+      margin-left: 20px;
+    }
+    
+     .section1-box .part1{
+      font-size:1.3rem;
+      font-weight: 1000;
+      text-align: start;      
+    }
+    
+    .section1-box .part2{
+      font-size: 1rem;
+      font-weight: 100;
+      width: 75%;
+      text-align: start; 
+    }
+    
+    .section1-box .part3{
+      text-align: start; 
+    }
+    
+    .section1-box .part3 button{
+      text-wrap:wrap;
+      padding: 15px 7%;
+      font-size: 1rem;
+      
+    }
+
+    .section2-box{
+      grid-template-columns: 1fr;
+      padding: 50px 0px;
+    }
+    .section2-box .part1{
+      background-size: 85%;
+      height: 250px;
+    }
+  
+
+    .section2-box .part2{
+      height: 100px;
+      margin-left: 10px;
+    }
+    
+    .section2-box .part2 p:first-child{
+      font-size: 16px;
+      width: 100%;
+      line-height: 20px;
+    }
+    
+    .section2-box .part2 p:last-child{
+      font-size: 18px;
+      width: 90%;
+    }
+
+    /*  */
+    .section3-box{
+      grid-template-columns: 1fr;
+      padding: 50px 0px;
+    }
+    .section3-box .part1{
+      background-size: 77%;
+      height: 250px;
+      grid-row: 1; /* Place part1 in the second row */
+      grid-column: 1;
+    }
+  
+
+    .section3-box .part2{
+      height: 100px;
+      grid-row: 2; /* Place part1 in the second row */
+      grid-column: 1;
+      margin-left: 10px;
+    }
+    
+    .section3-box .part2 p:first-child{
+      font-size: 16px;
+      width: 100%;
+      line-height: 20px;
+      margin-left: 2px;
+    }
+    
+    .section3-box .part2 p:last-child{
+      font-size: 18px;
+      width: 90%;
+      margin-left: 2px;
+    }
+
+    /* section4 */
+
+    .section4-box{
+      grid-template-columns: 1fr;
+      padding: 50px 0px;
+    }
+    .section4-box .part1{
+      background-size: 72%;
+      height: 250px;
+    }
+  
+
+    .section4-box .part2{
+      margin-top: 10px;
+      height: 100px;
+      margin-left: 10px;
+    }
+    
+    .section4-box .part2 p:first-child{
+      font-size: 18px !important;
+      width: 100%;
+      line-height: 20px;
+    }
+    
+    .section4-box .part2 p:last-child{
+      font-size: 18px;
+      width: 90%;
+    }
+
+          /* Section5 */
+
+  .section5-box{
+
+    
+  }
+  .section5-box .part1{
+    font-size: 16px !important;
+  }
+  
+  .section5-box .part2{
+    font-size: 12px !important;
+    width: 300px !important;
+    margin-left: 10px;
+  }
+  
+  .section5-box .part3{
+    margin-top: 0px;
+    width: 80%;
+    height: 250px !important;
+    background-size: 70%;
+  }
+
+  /* Section6 */
+
+  .section6-box{
+    height: 200px;
+  
+  }
+  
+  .section6-box .part1{
+    font-size:20px ;
+    font-weight: 600;
+  }
+  
+  .section6-box .part2{
+    margin-top: 10px;
+    padding: 10px 50px;
+    color: white;
+    margin-left: 10px;
+  }
+  .footer{
+    height: 1000px;
+  
+  }
+  
+  .footer-box{
+    margin-top:3%;
+    margin-bottom: 10%;
+    width: 80%;
+    height: 80%;
+  
+  }
+
+  .footer-grid {
+    grid-template-rows: 1fr 2fr 4fr; /* First row 1fr, Second row 3fr */
+    grid-template-columns: 1fr 1fr; /* Three columns, 2fr, 1fr, 1fr */
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer-section1 {
+    grid-row: 1 / 2; /* First row */
+    grid-column: 1 / 2; /* Spans from first to second column */
+  }
+  
+  .footer-section2 {
+    grid-row: 2 / 3; /* First row */
+    grid-column: 1 / 2; /* Third column */
+  }
+  
+  .footer-section3 {
+    grid-row: 2 / 3; /* First row */
+    grid-column: 2 / 3; /* Fourth column */
+  }
+  
+  .footer-section4 {
+    grid-row: 3 / 4; /* Second row */
+    grid-column: 1 / 2; /* First column */
+  }
+  
+  .footer-section5 {
+    grid-row: 3 / 4; /* Second row */
+    grid-column: 2 / 3; /* Third column */
+  }
+  }
+  
+  /* Styles for Small Devices (Phones) */
+  @media only screen and (min-width: 576px) and (max-width: 768px) {
+  
+  
+    .download1{
+      display: flex;
+      
+    }
+    
+    .right-img{
+      display: none;
+    }
+  
+    .left-img{
+      width: 50%;
+      left: 30%;
+      display: flex;
+      align-items: flex-end;
+    }
+  
+    .left-img img{
+      width: 90%;
+      
+    }
+
+    .section1-box{
+      top: 0%;
+      left: 0%;
+      transform: none;
+      margin-left: 20px;
+    }
+    
+     .section1-box .part1{
+      font-size:1.8rem;
+      font-weight: 1000;
+      text-align: start;      
+    }
+    
+    .section1-box .part2{
+      font-size: 1rem;
+      font-weight: 100;
+      width: 75%;
+      text-align: start; 
+    }
+    
+    .section1-box .part3{
+      text-align: start; 
+    }
+    
+    .section1-box .part3 button{
+      padding: 10px 10%;
+      font-size: 1.1rem;
+      text-wrap:nowrap;
+      
+    
+    }
+    
+    .section2-box{
+      padding-bottom: 30px;
+      grid-template-columns: 1fr;
+    }
+    .section2-box .part1{
+      background-size: 95%;
+    }
+
+    .section2-box .part2{
+
+      height: 250px;
+    }
+    
+    .section2-box .part2 p:first-child{
+      font-size: 24px;
+      width: 100%;
+      text-wrap: nowrap;
+    }
+    
+    .section2-box .part2 p:last-child{
+      font-size: 18px;
+      width: 90%;
+    }
+
+    /*  */
+    .section3-box{
+      padding-top: 30px;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr;
+    }
+    .section3-box .part1{
+      background-size: 95%;
+      grid-row: 1; /* Place part1 in the second row */
+      grid-column: 1;
+    }
+
+    .section3-box .part2{
+      grid-row: 2; /* Place part1 in the second row */
+      grid-column: 1;
+      height: 200px;
+    }
+    
+    .section3-box .part2 p:first-child{
+      font-size: 24px;
+      width: 100%;
+      text-wrap: nowrap;
+      margin-left: 20px;
+    }
+    
+    .section3-box .part2 p:last-child{
+      font-size: 18px;
+      width: 90%;
+      margin-left: 20px;
+    }
+
+    /* section4 */
+
+    .section4-box{
+      padding-bottom: 30px;
+      grid-template-columns: 1fr;
+    }
+    .section4-box .part1{
+      background-size: 80%;
+    }
+
+    .section4-box .part2{
+      margin-top: 10px;
+      margin-left: 30px;
+      height: 250px;
+    }
+    
+    .section4-box .part2 p:first-child{
+      font-size: 24px !important;
+      width: 100%;
+      text-wrap: nowrap;
+    }
+    
+    .section4-box .part2 p:last-child{
+      font-size: 18px;
+      width: 90%;
+    }
+
+          /* Section5 */
+
+  .section5-box{
+
+    
+  }
+  .section5-box .part1{
+    font-size: 20px !important;
+  }
+  
+  .section5-box .part2{
+    font-size: 12px;
+    width: 450px !important;
+  }
+  
+  .section5-box .part3{
+    margin-top: 0px;
+    width: 80%;
+    height: 350px;
+    background-size: 100%;
+  }
+  .footer{
+    height: 1000px;
+  
+  }
+  
+  .footer-box{
+    margin-top:3%;
+    margin-bottom: 10%;
+    width: 80%;
+    height: 80%;
+  
+  }
+
+  .footer-grid {
+    grid-template-rows: 1fr 2fr 4fr; /* First row 1fr, Second row 3fr */
+    grid-template-columns: 1fr 1fr; /* Three columns, 2fr, 1fr, 1fr */
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer-section1 {
+    grid-row: 1 / 2; /* First row */
+    grid-column: 1 / 2; /* Spans from first to second column */
+  }
+  
+  .footer-section2 {
+    grid-row: 2 / 3; /* First row */
+    grid-column: 1 / 2; /* Third column */
+  }
+  
+  .footer-section3 {
+    grid-row: 2 / 3; /* First row */
+    grid-column: 2 / 3; /* Fourth column */
+  }
+  
+  .footer-section4 {
+    grid-row: 3 / 4; /* Second row */
+    grid-column: 1 / 2; /* First column */
+  }
+  
+  .footer-section5 {
+    grid-row: 3 / 4; /* Second row */
+    grid-column: 2 / 3; /* Third column */
+  }
+  }
+  
+  /* Styles for Medium Devices (Tablets) */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+  
+  
+    .download1{
+      display: flex;
+    }
+    .section1{
+      background-image:none;
+    }
+    
+    .right-img{
+      display: none;
+    }
+  
+    .left-img{
+      width: 50%;
+      left: 25%;
+      display: flex;
+      align-items: flex-end;
+    }
+  
+    .left-img img{
+      width: 90%;
+      
+    }
+
+    .section1-box{
+      top: 0%;
+      left: 0%;
+      transform: none;
+      margin-left: 20px;
+    }
+    
+     .section1-box .part1{
+      font-size:3rem;
+      font-weight: 1000;
+      text-align: start;      
+    }
+    
+    .section1-box .part2{
+      font-size: 1rem;
+      font-weight: 100;
+      width: 70%;
+      text-align: start; 
+    }
+    
+    .section1-box .part3{
+      text-align: start; 
+    }
+    
+    .section1-box .part3 button{
+      padding: 10px 10%;
+      font-size: 1.1rem;
+      text-wrap:nowrap;
+      
+    
+    }
+    
+    .section2-box{
+      grid-template-columns: 1fr;
+      padding-bottom: 30px;
+    }
+    .section2-box .part1{
+      background-size: 80%;
+    }
+  
+
+    .section2-box .part2{
+
+      height: 200px;
+    }
+    
+    .section2-box .part2 p:first-child{
+      font-size: 30px;
+      width: 100%;
+    }
+    
+    .section2-box .part2 p:last-child{
+      font-size: 18px;
+      width: 90%;
+    }
+
+    /*  */
+    .section3-box {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr; 
+    }
+    
+    .section3-box .part1 {
+      background-size: 80%;
+      grid-row: 1; /* Place part1 in the second row */
+      grid-column: 1;
+    }
+    
+    .section3-box .part2 {
+      grid-row: 2; /* Place part2 in the first row */
+      grid-column: 1; 
+      height: 250px;
+    }
+    
+    .section3-box .part2 p:first-child {
+      font-size: 30px;
+      width: 100%;
+      margin-left: 20px;
+    }
+    
+    .section3-box .part2 p:last-child {
+      font-size: 18px;
+      width: 90%;
+      margin-left: 20px;
+    }
+    
+    /* section4 */
+
+    .section4-box{
+      grid-template-columns: 1fr;
+      padding-bottom: 30px;
+    }
+    .section4-box .part1{
+      background-size: 70%;
+    }
+  
+
+    .section4-box .part2{
+      margin-top: 10px;
+      height: 200px;
+      margin-left: 20px;
+    }
+    
+    .section4-box .part2 p:first-child{
+      font-size: 30px !important;
+      width: 100%;
+    }
+    
+    .section4-box .part2 p:last-child{
+      font-size: 18px;
+      width: 90%;
+    }
+
+      /* Section5 */
+
+  .section5-box{
+
+    
+  }
+  .section5-box .part1{
+    font-size: 25px;
+  }
+  
+  .section5-box .part2{
+    font-size: 14px;
+    width: 550px;
+  }
+  
+  .section5-box .part3{
+    margin-top: 0px;
+    width: 80%;
+    height: 500px;
+    background-size: 100%;
+  }
+
+
+  .footer{
+    height: 850px;
+  
+  }
+  
+  .footer-box{
+    margin-top:3%;
+    margin-bottom: 10%;
+    width: 80%;
+    height: 80%;
+  
+  }
+
+  .footer-grid {
+    grid-template-rows: 1fr 3fr; /* First row 1fr, Second row 3fr */
+    grid-template-columns: 1.5fr 1fr 1fr; /* Three columns, 2fr, 1fr, 1fr */
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer-section1 {
+    grid-row: 1 / 2; /* First row */
+    grid-column: 1 / 2; /* Spans from first to second column */
+  }
+  
+  .footer-section2 {
+    grid-row: 1 / 2; /* First row */
+    grid-column: 2 / 3; /* Third column */
+  }
+  
+  .footer-section3 {
+    grid-row: 1 / 2; /* First row */
+    grid-column: 3 / 4; /* Fourth column */
+  }
+  
+  .footer-section4 {
+    grid-row: 2 / 3; /* Second row */
+    grid-column: 2 / 3; /* First column */
+  }
+  
+  .footer-section5 {
+    grid-row: 2 / 3; /* Second row */
+    grid-column: 3 / 4; /* Third column */
+  }
+  
+    
+  }
+  
+  /* Styles for Large Devices (Desktops and Laptops) */
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+  
+    .download1{
+      opacity:0;
+     }
+  
+     .nav-link{
+      filter: invert();
+      font-size: 14px;
+     }
+  
+     .download1{
+      display: none;
+    }
+    
+    .offcanvas-line{
+      display: none;
+    }
+    .login-button{
+      margin-right: 5%;
+    }
+    .navbar-brand{
+      margin-left: 5%;
+    }
+    
+  
+    .left-img{
+      width: fit-content;
+      height: 57%;
+    
+    }
+  
+    .left-img img{
+      margin-top: 6%;
+      width: 80%;
+     
+    }
+
+    .section2-box .part1{
+      background-size: 120%;
+    }
+
+    .section2-box .part2{
+
+      height: 400px;
+    }
+    
+    .section2-box .part2 p:first-child{
+      font-size: 45px;
+      width: 70%;
+    }
+    
+    .section2-box .part2 p:last-child{
+      font-size: 18px;
+      width: 70%;
+    }
+
+    /*  */
+
+    .section3-box .part1{
+      background-size: 105%;
+    }
+
+    .section3-box .part2{
+      height: 400px;
+    }
+    
+    .section3-box .part2 p:first-child{
+      font-size: 45px;
+      margin-left: 20px;
+      width: 70%;
+    }
+    
+    .section3-box .part2 p:last-child{
+      font-size: 18px;
+      margin-left: 20px;
+      width: 70%;
+    }
+      /*  section4*/
+
+  .section4-box .part1{
+    background-size: 68%;
+  }
+
+  .section4-box .part2{
+    height: 250px;
+  }
+  
+  .section4-box .part2 p:first-child{
+    font-size: 45px;
+    width: 70%;
+  }
+  
+  .section4-box .part2 p:last-child{
+    font-size: 18px;
+    width: 70%;
+  }
+
+  /* Section5 */
+
+  .section5-box{
+
+    
+  }
+  .section5-box .part1{
+    font-size: 30px;
+  }
+  
+  .section5-box .part2{
+    font-size: 18px;
+    width: 650px;
+  }
+  
+  .section5-box .part3{
+    margin-top: 0px;
+    width: 80%;
+    height: 500px;
+    background-size: 100%;
+  }
+
+  }
+
+
+    
+  
+  /* Styles for Extra Large Devices (Large Desktops) */
+  @media only screen and (min-width: 1200px) {
+    
+    
+    .download1{
+      opacity:0;
+     }
+  
+     .nav-link{
+      filter: invert();
+      box-shadow: none;
+      font-size: 15px;
+     }
+     .download1{
+      display: none;
+    }
+    .offcanvas-line{
+      display: none;
+    }
+    .navbar-brand{
+      margin-left: 15%;
+    }
+    .login-button{
+      margin-right: 20%;
+    }
+  
+    .left-img img{
+      margin-top: 10%;
+      width: 85%;
+    }
+
+      /* Section5 */
+
+  .section5-box{
+
+    
+  }
+  .section5-box .part1{
+    font-size: 40px;
+  }
+  
+  .section5-box .part2{
+    font-size: 18px;
+    width: 800px;
+  }
+  
+  .section5-box .part3{
+    margin-top: 0px;
+    width: 80%;
+    height: 500px;
+    background-size: 65%;
+    backface-visibility: visible;
+  }
+  }
+  
